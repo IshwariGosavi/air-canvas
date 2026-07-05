@@ -1,6 +1,6 @@
 # Air Canvas 🎨
 
-Draw in the air using just your index finger and a webcam — no mouse, no touchscreen. Built with real-time hand tracking, this project turns finger movement into an actual drawing canvas.
+Draw in the air using just your index finger and a webcam. No mouse, no touchscreen. Built with real-time hand tracking, this project turns finger movement into an actual drawing canvas.
 
 🔗 **Live Demo:** [air-cnvs.netlify.app](https://air-cnvs.netlify.app/)
 
@@ -8,16 +8,16 @@ Draw in the air using just your index finger and a webcam — no mouse, no touch
 
 ## Features
 
-- Real-time hand tracking using your webcam — no external hardware or gloves needed
+- Real-time hand tracking using your webcam, no external hardware or gloves needed
 - Draw by moving your index finger through the air
-- **Pinch-to-pause**: bring your thumb and index finger together to lift your "pen" without drawing
+- **Pinch-to-pause**: bring your thumb and index finger together to lift your "pen" and pause your drawing 
 - 20-color palette to choose from
 - Eraser tool
 - Clear canvas button
 
 ## Tech Stack
 
-- **Hand tracking**: [MediaPipe Hands](https://developers.google.com/mediapipe) — a pre-trained machine learning model for real-time hand landmark detection
+- **Hand tracking**: [MediaPipe Hands](https://developers.google.com/mediapipe)  a pre-trained machine learning model for real-time hand landmark detection
 - **Frontend**: Vanilla HTML, CSS, and JavaScript
 - **Rendering**: HTML5 Canvas API
 - **Deployment**: Netlify
